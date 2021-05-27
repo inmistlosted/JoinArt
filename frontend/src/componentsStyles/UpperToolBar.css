@@ -1,0 +1,150 @@
+.align{
+    padding: 15px;
+
+}
+
+.color{
+    background-color: #040618;
+
+}
+
+.textcolor{
+    color: white;
+
+}
+.textpos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-bar{
+    min-width: 70px;
+    height: 60px;
+    color: white;
+    background: #000000;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-bar:hover{
+    background: #393e43;
+    color: goldenrod;
+}
+
+.menu-bar.active{
+    background: goldenrod;
+    color: black;
+}
+
+.upper-tool-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+
+.upper-tool-bar-left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.search-block{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.title-text{
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.upper-tool-bar-line{
+    width: 1px;
+    height: 30px;
+    background: goldenrod;
+}
+
+.search-input{
+    width: 70%;
+}
+
+.search-input-container{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.search-input-container i{
+    width: 20px;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.search-input-container input{
+    width: 90%;
+    border: unset;
+    background: black;
+    box-shadow: unset;
+    color: grey;
+}
+
+.search-input-container input::placeholder{
+    color: grey;
+}
+
+.search-input-container input:focus{
+    outline: unset;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.upper-tool-bar-right{
+    width: 30%;
+    display: flex;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.upper-tool-bar-right-btn{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-tool-bar-right-btn:hover{
+    color: goldenrod;
+}
+
+.logged-in{
+    color: goldenrod;
+}
+
+.search-btn{
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    color: goldenrod;
+}

@@ -1,0 +1,185 @@
+.auction-page-container{
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.auction-page-title-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.auction-page-title{
+    color: white;
+    font-size: 40px;
+    width: 49%;
+    text-align: right;
+}
+
+.auction-page-time-title{
+    font-size: 35px;
+    color: goldenrod;
+    margin-left: 15px;
+    font-weight: bold;
+    width: 49%;
+    text-align: left;
+}
+
+.auction-page-info-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auction-page-bid-info{
+    width: 65%;
+}
+
+.auction-page-info{
+    width: 33%;
+}
+
+.auction-page-bid-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: goldenrod;
+    color: white;
+    font-size: 30px;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.auction-page-painting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid goldenrod;
+}
+
+.auction-page-painting-image{
+    width: 100%;
+}
+
+.auction-page-painting-title{
+    background: #2b2625;
+    padding: 40px 25px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+
+.auction-page-price-container{
+    background: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.auction-page-price-title{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0 20px;
+}
+
+.auction-page-bet-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c5a217;
+    width: 80%;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.auction-page-bet-btn:hover{
+    background: white;
+    color: black;
+}
+
+.auction-page-history-container{
+    background: #2b2625;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auction-page-history-title{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.auction-page-history{
+    background: #19191a;
+    width: 90%;
+    padding: 0 22px;
+    margin: 10px 0 20px;
+}
+
+.auction-page-history-bet{
+    margin: 15px;
+    border-left: 2px solid white;
+}
+
+.auction-page-history-bet-title{
+    color: white;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.auction-page-history-bet-time{
+    text-align: right;
+    color: grey;
+    font-size: 12px;
+}
+
+.auction-page-history-bet-price{
+    color: goldenrod;
+    margin-left: 5px;
+}
+
+.auction-page-history-bet-line{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.auction-page-ended{
+    color: #a64633;
+}
+
+.auction-page-not-started{
+    color: cornflowerblue;
+}
+
+.auction-page-history-bet-mark{
+    padding: 1px 8px;
+    border-radius: 10px;
+    color: white;
+    font-size: 11px;
+    margin-left: 7px;
+}
+
+.bet-active{
+    background: cornflowerblue;
+}
+
+.bet-ended{
+    background: forestgreen;
+}

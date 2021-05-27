@@ -1,0 +1,96 @@
+.album-card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #a64633;
+    border-radius: 8px;
+    margin: 10px 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.album-card:hover{
+    width: 220px;
+    height: 220px;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.album-card-user{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #a64633;
+    border-radius: 8px;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.album-card-user:hover{
+    width: 220px;
+    height: 220px;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.album-card-img{
+    width: 100%;
+    height: 50%;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+}
+
+.album-card-body{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.album-card-title{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.album-card:hover .album-card-title{
+    font-size: 22px;
+}
+
+.album-card .album-card-added{
+    position: absolute;
+    color: forestgreen;
+    font-size: 30px;
+    bottom: 5px;
+    right: 8px;
+}
+
+.album-card-controls{
+    position: absolute;
+    color: white;
+    font-size: 26px;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.album-card-controls i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.album-card-controls .fa-trash:hover{
+    color: #a64633;
+}
+
+.album-card-controls .fa-edit:hover{
+    color: goldenrod;
+}
+
+.album-card-title:hover{
+    color: white;
+}

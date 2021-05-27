@@ -1,0 +1,251 @@
+.manage-paintings{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    background: #2b2625;
+    align-items: center;
+}
+
+.manage-paintings-mrg{
+    margin-bottom: 400px;
+}
+
+.manage-paintings-title{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 12px;
+}
+
+.manage-paintings-container{
+    width: 90%;
+}
+
+.manage-paintings-controls{
+    width: 100%;
+    background: black;
+}
+
+.manage-paintings-sort{
+    color: white;
+    padding: 6px 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid white;
+}
+
+.manage-paintings-sort select{
+    appearance: none;
+    background: black;
+    color: goldenrod;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.manage-paintings-sort select:hover{
+    color: cornflowerblue;
+}
+
+.manage-paintings-paints{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.manage-painting-item{
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
+.manage-painting-item .item{
+    text-align: center;
+    border: 1px solid white;
+    padding: 5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manage-painting-item .ttl{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.manage-painting-item .item.image{
+    width: 12%;
+    padding: 4px 0;
+}
+
+.manage-painting-item .item.title{
+    width: 20%;
+}
+
+.manage-painting-item .item.descr{
+    width: 30%;
+}
+
+.manage-painting-item .item.price{
+    width: 11%;
+}
+
+.manage-painting-item .item.likes-count{
+    width: 15%;
+}
+
+.manage-painting-item .item.edit{
+    width: 6%;
+    border-right: none;
+}
+
+.manage-painting-item .item.delete{
+    width: 6%;
+    border-left: none;
+}
+
+.manage-painting-item .item.image.gr{
+    width: 20%;
+    padding: 4px 0;
+}
+
+.manage-painting-item .item.title.gr{
+    width: 20%;
+}
+
+.manage-painting-item .item.descr.gr{
+    width: 48%;
+}
+
+.manage-painting-item .item.edit.gr{
+    width: 6%;
+    border-right: none;
+}
+
+.manage-painting-item .item.delete.gr{
+    width: 6%;
+    border-left: none;
+}
+
+.manage-painting-item .item.image img{
+    width: 100%;
+}
+
+.manage-painting-item .item.edit i{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.manage-painting-item .item.edit i:hover{
+    color: goldenrod;
+}
+
+.manage-painting-item .item.delete i{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.manage-painting-item .item.delete i:hover{
+    color: goldenrod;
+}
+
+.manage-painting-item .item.pur-order{
+    width: 14%;
+}
+
+.manage-painting-item .item.pur-image{
+    width: 18%;
+    padding: 4px 0;
+}
+
+.manage-painting-item .item.pur-title{
+    width: 25%;
+}
+
+.manage-painting-item .item.pur-price{
+    width: 18%;
+}
+
+.manage-painting-item .item.pur-btn-container{
+    width: 25%;
+}
+
+.manage-painting-item .item.pur-image img{
+    width: 100%;
+}
+
+.purchases-title{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.buy-btn{
+    width: 70%;
+    font-size: 30px;
+    background: goldenrod;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 2px 0;
+    cursor: pointer;
+}
+
+.buy-btn:hover{
+    background: forestgreen;
+}
+
+.pur-paid{
+    color: forestgreen;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.pur-container{
+    margin-bottom: 20px;
+}
+
+.gr-ttl{
+    position: relative;
+    margin-left: -100px;
+}
+
+.add-gr{
+    background: forestgreen;
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0;
+    border: 2px solid white;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    right: -37%;
+    top: 15px;
+}
+
+.add-gr:hover{
+    background: white;
+    color: black;
+}
+
+.admin-container{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.admin-outer{
+    width: 79%;
+}

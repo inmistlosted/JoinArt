@@ -1,0 +1,263 @@
+.user-page-container{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.user-page-left{
+    width: 25%;
+}
+
+.user-page-mid{
+    width: 50%;
+    margin-bottom: 200px;
+}
+
+.user-page-right{
+    width: 22%;
+}
+
+.user-page-follows{
+    background: #2b2625;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-page-follows-title{
+    color: white;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: black;
+    cursor: pointer;
+}
+
+.user-page-follows-users{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-page-follows-users.active{
+    display: flex;
+}
+
+.user-page-follower{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px 15px;
+    border-bottom: 2px solid white;
+}
+
+.user-page-follower:last-child{
+    border-bottom: none;
+}
+
+.user-page-follower-name{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.user-page-follower-name:hover{
+    color: goldenrod;
+}
+
+.user-page-follower-btn{
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.user-page-follower-btn:hover{
+    background: #a64633;
+}
+
+.user-page-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-page-paintings-btns{
+    background: #19191a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-page-add-painting{
+    background: forestgreen;
+    color: white;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    margin: 20px 0;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user-page-add-painting:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.user-page-manage-paintings{
+    background: cornflowerblue;
+    color: white;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    margin: 0 0 20px;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user-page-manage-paintings:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.user-page-purchases{
+    background: goldenrod;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    margin-top: 25px;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user-page-purchases:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.user-page-albums{
+    background: #a64633;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    margin-top: 15px;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user-page-albums:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.user-page-analytics{
+    background: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    margin-top: 15px;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user-page-analytics:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.user-page-mid{
+
+    background: #2b2625;
+    padding-bottom: 15px;
+}
+
+.user-page-image-container{
+    width: 35%;
+    height: 200px;
+    padding: 10px;
+}
+
+.user-page-image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.user-page-info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.user-page-info-item{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.user-page-info-item span{
+    color: goldenrod;
+}
+
+.user-page-info-btn{
+    background: white;
+    color: black;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    border: 4px solid black;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px auto;
+}
+
+.user-page-info-btn:hover{
+    background: goldenrod;
+    color: white;
+}
+
+.user-page-mid-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-page-follow-notfound{
+    color: white;
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.user-page-follow:hover{
+    background: forestgreen;
+}

@@ -1,0 +1,10 @@
+.loading-text{
+    color: #c5a217;
+}
+
+.loading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}

@@ -1,0 +1,147 @@
+.gg-format-justify,
+.gg-format-justify::before {
+    display: block;
+    box-sizing: border-box;
+    width: 16px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor;
+    box-shadow: 0 8px 0
+}
+
+.gg-format-justify {
+    margin-top: -11px;
+    position: relative
+}
+
+.gg-format-justify::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 0
+}
+
+.left-menu{
+    width: 70px;
+    height: 100vh;
+    background: black;
+    position: fixed;
+    z-index: 999;
+    top: 60px;
+}
+
+.left-menu-bars{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-menu-bars:hover{
+    background: #393e43;
+    color: goldenrod;
+}
+
+.left-menu-bars.active{
+    background: #292f34;
+    color: goldenrod;
+}
+
+.left-menu-line{
+    width: 100%;
+    height: 5px;
+    background: goldenrod;
+}
+
+.left-menu-full{
+    width: 300px;
+    height: 100vh;
+    background: black;
+    position: fixed;
+    z-index: 9999;
+    top: 60px;
+    margin-left: -230px;
+    border-right: 1px solid goldenrod;
+}
+
+.left-menu-full-active{
+    animation-name: slideright;
+    animation-duration: 1s;
+    margin-left: 0;
+}
+
+.left-menu-full-hidden{
+    animation-name: slideleft;
+    animation-duration: 1s;
+}
+
+.left-menu-bars-full{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-menu-bars-full.active{
+    background: #292f34;
+    color: goldenrod;
+}
+
+.left-menu-bars-full:hover{
+    background: #393e43;
+    color: goldenrod;
+}
+
+.bar-icon{
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-title{
+    color: white;
+    font-size: 18px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-menu-small{
+    animation-name: slideleft;
+    animation-duration: 1s;
+    margin-left: -230px;
+}
+
+@keyframes slideright {
+    from{
+        margin-left: -230px;
+    }
+
+    to{
+        margin-left: 0;
+    }
+}
+
+@keyframes slideleft {
+    from{
+        margin-left: 0;
+    }
+
+    to{
+        margin-left: -230px;
+    }
+}

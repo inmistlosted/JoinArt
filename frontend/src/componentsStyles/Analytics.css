@@ -1,0 +1,86 @@
+.charts-outer{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart{
+    width: 50%;
+    padding: 20px;
+}
+
+.genres-chart{
+    border-top: 2px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 2px solid white;
+}
+
+.moves-chart{
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.paints-chart{
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+}
+
+.paints-time-chart{
+    border-top: 1px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 1px solid white;
+}
+
+.charts-container{
+    width: 79%;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.charts-btn-container{
+    width: 19%;
+}
+
+.charts-btn-inner{
+    width: 100%;
+    background: #19191a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.charts-btn{
+    background: cornflowerblue;
+    color: white;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    margin: 20px 0 0;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.charts-btn:last-child{
+    margin-bottom: 20px;
+}
+
+.charts-btn.active{
+    background: goldenrod;
+}
+
+.charts-btn:hover{
+    background: goldenrod;
+}

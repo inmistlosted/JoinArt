@@ -1,0 +1,316 @@
+.artpos{
+    padding-top: 5%;
+}
+
+.textpos{
+    text-align: center;
+}
+
+.textstyle{
+    color: white;
+}
+.uppertitlepos{
+    padding-bottom: 2%;
+}
+
+.art-page{
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.art-page-left-container{
+    width: 75%;
+}
+
+.art-page-image{
+    width: 100%;
+    height: 500px;
+}
+
+.art-page-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.art-page-top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.art-page-right-container{
+    width: 23%;
+}
+
+.art-page-auction-container{
+    background: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.art-page-price{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0 20px;
+}
+
+.art-page-auction-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c5a217;
+    width: 80%;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.art-page-auction-btn:hover{
+    background: white;
+    color: black;
+}
+
+.art-page-owner-container{
+    background: #19191a;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.art-page-owner{
+    color: white;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.art-page-owner-name{
+    color: #c99f0a;
+}
+
+.art-page-follow-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #007b5e;
+    width: 80%;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.art-page-follow-btn:hover{
+    background: white;
+    color: black;
+}
+
+.art-page-addtoalbum-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a64633;
+    width: 90%;
+    height: 60px;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+.art-page-addtoalbum-btn:hover{
+    background: white;
+    color: black;
+}
+
+.art-page-right-info{
+    background: #2b2625;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.art-page-genres-container{
+    background: #19191a;
+    width: 90%;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.art-page-genre{
+    padding: 5px 15px;
+    background: #c5a217;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.art-page-genre:hover{
+    color: black;
+    background: white;
+}
+
+.art-page-movement{
+    background: purple;
+}
+
+.art-page-likes-info{
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9b9b9b;
+}
+
+.art-page-likes-comments{
+    margin: 5px 15px;
+}
+
+.art-page-l{
+    color: #a64633;
+    margin-right: 5px;
+}
+
+.art-page-c{
+    color: cornflowerblue;
+    margin-right: 5px;
+}
+
+.art-page-date{
+    margin: 5px 15px;
+}
+
+.art-page-like{
+    font-size: 23px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.art-page-like:hover{
+    color: #a64633;
+}
+
+.art-page-like.active{
+    color: #a64633;
+}
+
+.art-page-comment{
+    font-size: 23px;
+    margin-right: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.art-page-comment:hover{
+    color: cornflowerblue;
+}
+
+.art-page-comment.active{
+    color: cornflowerblue;
+}
+
+.art-page-info{
+    width: 100%;
+    background: black;
+    margin-top: 65px;
+    color: white;
+}
+
+.art-page-author-container{
+    width: 100%;
+}
+
+.art-page-author-title{
+    height: 80px;
+    font-size: 25px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.art-page-author-name{
+    background: #2b2625;
+    padding: 20px 25px;
+    display: none;
+}
+
+.art-page-author-name.active{
+    display: block;
+}
+
+.art-page-title{
+    text-align: center;
+    font-size: 35px;
+    display: block;
+}
+
+.art-page-comments{
+    width: 100%;
+    background: black;
+    margin-top: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.art-page-comments-title{
+    border-bottom: 2px solid white;
+}
+
+.art-page-comments-container{
+    margin-top: 20px;
+}
+
+.painting-not-found{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+
+.no-comments-found{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.art-page-is-following{
+    background: #68daa5;
+}
+
+.art-page-is-following:hover:after{
+    content: 'Unfollow';
+    background: white;
+    color: black;
+    font-size: 1rem;
+}
+
+.art-page-is-following:hover{
+    font-size: 0;
+}
+
+.art-page-owner-name:hover{
+    color: gold;
+}

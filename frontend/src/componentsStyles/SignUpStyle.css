@@ -1,0 +1,46 @@
+.cst{
+    color: red !important;
+    display: inline;
+    float: none;
+}
+
+.gendertitle{
+    color: white;
+}
+
+
+.legend {
+    font-weight: bold;
+}
+label {
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.card-width-500{
+    width: 500px;
+}
+
+.signup-error-message{
+    color: red;
+    font-size: 13px;
+}
+
+.signup-failure-message{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.signup-input-error{
+    border: 2px solid red;
+}
+
+.signup-input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .signup-input-container .signup-input{
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+.topictitle{
+color: white;
+    background-color: #000000;
+    padding: 10px;
+
+
+}
+
+.toptopicstitle{
+    color: white;
+    padding-left: 25px;
+}
+
+.top-movements-title{
+    color: white;
+    padding-left: 25px;
+    margin-top: 50px;
+}
+
+.alltopicstitle{
+    color: white;
+    margin-top: 50px;
+    padding-left: 25px;
+}
+
+.bcground{
+    background-color: black;
+}
+.bgimg{
+    background-image: url("images/Van_Gogh.jpg");
+    background-size: 100%;
+
+}
+
+.containerstyle{
+   
+    background-color: rgba(16, 33, 69, 0.9);
+
+}
+
+.borderst{
+    margin-top: 50px;
+}
+

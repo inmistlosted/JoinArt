@@ -1,0 +1,41 @@
+.commentsize{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.commtext{
+    text-align: left;
+}
+
+.comment-line-v{
+    width: 2px;
+    background: white;
+    min-height: 80px;
+    margin-right: 5px;
+}
+
+.comment-line-h{
+    height: 2px;
+    width: 50px;
+    background: white;
+    margin-right: 5px;
+    margin-top: 40px;
+}
+
+.comment-body{
+    width: 85%;
+    justify-content: center;
+}
+
+.comment-content{
+    background: white;
+    color: black;
+    padding: 20px;
+}
+
+.comment-date{
+    font-weight: bold;
+    text-align: right;
+    padding-top: 10px;
+}

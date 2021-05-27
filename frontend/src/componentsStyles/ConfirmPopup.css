@@ -1,0 +1,64 @@
+.confirm-popup-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.confirm-popup{
+    width: 40%;
+    height: 300px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    color: white;
+    font-size: 25px;
+    border: 2px solid goldenrod;
+}
+
+.confirm-popup-question{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    padding: 0 40px;
+}
+
+.confirm-popup-btns{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.confirm-popup-btns div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    background: #c99f0a;
+}
+
+.confirm-popup-yes:hover{
+    background: forestgreen;
+}
+
+.confirm-popup-no:hover{
+    background: #a64633;
+}
+
+.confirm-popup-painting-title{
+    color: goldenrod;
+}
+
+.confirm-popup-album-title{
+    color: #a64633;
+}
